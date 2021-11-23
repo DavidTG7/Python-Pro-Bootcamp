@@ -90,3 +90,4 @@ if row5[9] == '-':
 
 # print(f'{rowa.join(row1)}\n{rowb.join(row2)}\n{rowc.join(row3)}\n{rowd.join(row4)}\n{rowe.join(row5)}\n{rowf.join(row6)}\n{rowg.join(row7)}\n{rowh.join(row8)}\n')
 
+# Se requiere mas conocimiento sobre la formulacion y uso de funciones. Retomar mas adelante HOY = 23/11/21 18:41

@@ -21,3 +21,12 @@ for n in range(0, len(chosen_word) - 1):
 
 print(word)
 
+
+# Angela's solution to part 3:
+
+# for letter in chosen_word:
+#     if letter == guess:
+#         print("Right")
+#     else:
+#         print("Wrong")
+

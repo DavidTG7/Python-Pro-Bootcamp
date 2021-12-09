@@ -1,3 +1,5 @@
+# My solution to part 3, it might generates errors, bur it works as requested.
+
 #Step 3
 
 import random

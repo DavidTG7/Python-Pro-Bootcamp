@@ -15,7 +15,7 @@ guess = input('Guess a letter: ').lower()
 word = []
 for n in chosen_word:
   word += '_'
-for n in range(0, len(chosen_word) - 1):
+for n in range(0, len(chosen_word)):
   if guess == chosen_word[n]:
     word[n] = guess[0]
 

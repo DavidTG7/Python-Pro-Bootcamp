@@ -35,5 +35,5 @@ while char == '_':
     else:
       char = '-'
   print(display)
-  print('You win!')
+print('You win!')
 

@@ -26,7 +26,7 @@ for letter in chosen_word:
     else:
         print("Wrong")
 
-for n in range(0, len(chosen_word) - 1):
+for n in range(0, len(chosen_word)):
   if guess == chosen_word[n]:
     word[n] = guess[0]
 

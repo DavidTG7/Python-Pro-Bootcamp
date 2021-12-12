@@ -1,4 +1,4 @@
-
+# You need to write a function that checks whether if the number passed into it is a prime number or not.
 
 def prime_checker(number):
   prime = True

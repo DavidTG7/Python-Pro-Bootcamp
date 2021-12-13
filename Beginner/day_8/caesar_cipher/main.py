@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 alphabet = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z']
 
 def cipher():
@@ -43,5 +41,3 @@ from art import logo
 print(logo)
 cipher()
 
-
->>>>>>> cf75260... :rocket: Code completed for Caesar Cipher challenge

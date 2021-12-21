@@ -1,9 +1,9 @@
 import random
 from art import logo
-from replit import clear
+import os
 
 def start():
-  clear()
+  os.system("clear")
 
   print(logo)
 

@@ -1,5 +1,8 @@
 from game_data import data 
+from art import logo
+from art import versus
 from random import randint
+import os
 
 def random_index(a_index):
 
@@ -11,12 +14,14 @@ def random_index(a_index):
 
 correct_guesses = 0
 
-a_index = randint(0, 5)
+print(logo)
 
+a_index = randint(0, 5)
 
 loser = True
 while loser:
     print(f"Compare A: {data[a_index]['name']}, {data[a_index]['description']}, from {data[a_index]['country']}.")
+    print(versus)
 
     b_index = random_index(a_index)
     print(f"Against B: {data[b_index]['name']}, {data[b_index]['description']}, from {data[b_index]['country']}.")
